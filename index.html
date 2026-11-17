@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore the menu, discover our story and get in touch with {your brand name}.">
+  <meta name="theme-color" content="#17251f">
+  <title>{your brand name} | Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">Freshly prepared. Thoughtfully served.</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="{your brand name} home"><span class="brand-mark">{Y}</span><span>{your brand name}<small>RESTAURANT & KITCHEN</small></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#menu">Menu</a><a href="#visit">Visit us</a>
+      <a class="nav-cta" href="#contact">Contact us <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">GOOD FOOD · GOOD COMPANY</p>
+        <h1>Made with care.<br><em>Served with warmth.</em></h1>
+        <p class="hero-intro">A welcoming place for satisfying meals, familiar favourites and something new to discover.</p>
+        <div class="hero-actions"><a class="button button-light" href="#menu">Explore our menu <span>↗</span></a><a class="text-link light-link" href="#about">Discover our story <span>→</span></a></div>
+        <div class="hero-meta"><span><b>01</b> Fresh ingredients</span><span><b>02</b> Made to order</span></div>
+      </div>
+      <div class="hero-image" role="img" aria-label="A freshly prepared restaurant meal"></div>
+      <div class="hero-index">{your brand name} <span>·</span> EST. 20XX</div>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="section-label"><span>01</span> A PLACE TO ENJOY</div>
+      <div class="intro-content"><h2>Good food brings<br>people <em>together.</em></h2><div><p class="large-copy">At {your brand name}, every meal is an opportunity to slow down, enjoy the moment and share something delicious.</p><p>From carefully selected ingredients to the final plate, we focus on serving food that feels fresh, satisfying and made with attention.</p><a class="text-link" href="#visit">Get to know us <span>→</span></a></div></div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="menu-heading"><div><div class="section-label"><span>02</span> FROM OUR KITCHEN</div><h2>Our <em>menu.</em></h2></div><p>A selection of customer favourites, prepared fresh and served just the way you like.</p></div>
+      <div class="menu-grid">
+        <article class="menu-card"><div class="food-image food-one" role="img" aria-label="Freshly prepared pizza"></div><div class="menu-card-body"><div><h3>Classic Garden Pizza</h3><span class="price">₹299</span></div><p>Fresh vegetables, house seasoning and melted cheese on a crisp base.</p><span class="menu-tag">CUSTOMER FAVOURITE</span></div></article>
+        <article class="menu-card"><div class="food-image food-two" role="img" aria-label="Restaurant-style pasta"></div><div class="menu-card-body"><div><h3>Creamy Herb Pasta</h3><span class="price">₹249</span></div><p>Rich, creamy sauce tossed with herbs and perfectly cooked pasta.</p><span class="menu-tag">KITCHEN SPECIAL</span></div></article>
+        <article class="menu-card"><div class="food-image food-three" role="img" aria-label="Grilled sandwich served with fries"></div><div class="menu-card-body"><div><h3>Grilled Club Sandwich</h3><span class="price">₹199</span></div><p>A generous toasted sandwich with fresh filling and a side of fries.</p><span class="menu-tag">ALL-TIME CLASSIC</span></div></article>
+      </div>
+      <p class="menu-note">Demo menu and prices for presentation. Final items and pricing can be customised.</p>
+    </section>
+
+    <section class="feature-band"><div class="feature-image" role="img" aria-label="Warm restaurant dining atmosphere"></div><div class="feature-copy"><div class="section-label"><span>03</span> THE EXPERIENCE</div><h2>Come hungry.<br><em>Leave happy.</em></h2><p>Whether it is a quick meal, a relaxed evening or time with friends and family, there is always a place for you here.</p><a class="button button-dark" href="#contact">Plan your visit <span>↗</span></a></div></section>
+
+    <section class="visit-section section" id="visit">
+      <div class="section-label"><span>04</span> FIND US</div><div class="visit-grid"><div><h2>Your table<br>is <em>waiting.</em></h2><p class="visit-lead">Visit us for freshly prepared food and a warm welcome.</p><a class="text-link" href="#contact">Get in touch <span>→</span></a></div><div class="details-grid"><div class="detail"><span class="detail-label">LOCATION</span><strong>Your restaurant address</strong><p>Area, City, State – PIN</p></div><div class="detail"><span class="detail-label">OPENING HOURS</span><strong>Monday – Sunday</strong><p>12:00 PM – 11:00 PM</p></div><div class="detail"><span class="detail-label">CALL US</span><strong>+91 XXXXX XXXXX</strong><p>For enquiries and reservations</p></div><div class="detail"><span class="detail-label">FOLLOW ALONG</span><strong>@yourrestaurant</strong><p>Instagram · Facebook</p></div></div></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div><div class="section-label"><span>05</span> GET IN TOUCH</div><h2>Let's make it<br><em>a good meal.</em></h2><p>Questions, group visits or reservations? We'd be happy to hear from you.</p></div><div class="contact-actions"><a class="button button-light" href="tel:+91XXXXXXXXXX">Call the restaurant <span>↗</span></a><a class="contact-email" href="mailto:hello@example.com">hello@example.com</a><small>Replace the demo contact details with your business information.</small></div></section>
+  </main>
+
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">{Y}</span><span>{your brand name}<small>RESTAURANT & KITCHEN</small></span></a><p>Good food. Good company. Always.</p><span class="copyright">© <span id="year"></span> {your brand name}. All rights reserved.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
